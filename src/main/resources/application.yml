@@ -1,0 +1,23 @@
+#spring:
+#  aop:
+#    auto: true
+#    proxy-target-class: truespring:
+
+
+#  redis:
+#    host: localhost
+#  spring:
+#    redis:
+#      port: 8080
+logging:
+  level:
+      com.demo.log: debug
+  file: D:\IdeaProject\demo1\src\main\java\com\demo\log\UserDao.log
+  path: D:\IdeaProject\demo1\src\main\java\com\demo\log
+  pattern:
+    console:
+
+#zookeeper.address=127.0.0.1:2181
+
+
+
